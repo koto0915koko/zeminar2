@@ -91,7 +91,7 @@ def matching(player_requirements,player_personalities_lover,player_personalities
             
         #趣味の一致
         for player_hobby in player_hobbies:
-            if player_hobbies in opponents_answers_hobbies[i]:
+            if player_hobby in opponents_answers_hobbies[i]:
                 count_c+=1
             each_count_hobbies.append(count_c)
         
